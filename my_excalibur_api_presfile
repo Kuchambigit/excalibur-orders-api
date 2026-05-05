@@ -1,0 +1,79 @@
+Excalibur Orders API – Project Presentation
+
+SPEAKER SCRIPT:
+------------------
+
+- Opening
+
+“Today I’ll walk you through a microservice I built using FastAPI and Docker, focusing on both backend development and DevOps practices.”
+
+- Objective
+
+“The goal was to build a clean API for managing orders while applying real-world DevOps concepts like containerization and version control.”
+
+- Tech Stack
+
+“I used Python with FastAPI for performance, Pydantic for validation, Docker for containerization, and GitHub for version control.”
+
+- Architecture
+
+“The architecture is simple: a client sends requests to the FastAPI service, which processes data and returns responses.
+Right now, I’m using in-memory storage to keep it lightweight.”
+
+- API Design
+
+“I implemented core REST endpoints:
+
+create orders
+retrieve orders
+fetch a single order
+delete orders”
+- Data Validation
+
+“I used Pydantic schemas to enforce structure and ensure clean data.
+This also automatically generates API documentation.”
+
+- Features
+
+“One key feature is Swagger UI, which allows easy testing and visibility into the API.
+I also added error handling for cases like missing orders.”
+
+- Docker
+
+“I containerized the application using Docker.
+This ensures consistency across environments and makes deployment much easier.”
+
+- Testing
+
+“I tested the API using Swagger UI and verified all CRUD operations.”
+
+ GitHub
+
+“I used Git for version control and pushed the project to GitHub to make it accessible and track changes.”
+
+ Challenges
+
+“I encountered a few issues:
+
+GitHub authentication → solved using a Personal Access Token
+Dockerfile placement → corrected project structure
+Data serialization → solved using schemas”
+- DevOps Thinking
+
+“This project demonstrates:
+
+containerization
+clean API design
+environment consistency
+version control workflows”
+- Future Improvements
+
+“If I extend this project, I would:
+
+integrate a database
+add authentication
+build a CI/CD pipeline
+deploy to Kubernetes”
+ Closing
+
+“This project shows my ability to build and containerize backend services while applying DevOps principles in a practical way.”
